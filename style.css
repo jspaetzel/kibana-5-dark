@@ -1,0 +1,144 @@
+@-moz-document url-prefix("https://kibana.")
+{
+  .global-nav
+  {
+    background-color: #2d2d2d;
+  }
+
+  .global-nav-link.active, .global-nav-link:hover
+  {
+    background-color: #585858;
+  }
+
+  body
+  {
+    color: #FFFFFF;
+    background-color: #2d2d2d;
+  }
+
+  a, a:active, .kuiLink, .kuiLink:active, .kuiLink:visited, .kuiLink:active
+  {
+    color: #e9478b;
+    text-decoration: none;
+  }
+
+  a:hover, .kuiLink:hover
+  {
+    color: #d96f9c;
+    text-decoration: none;
+  }
+
+  .application
+  {
+    background-color: #2d2d2d;
+  }
+
+  .table .table, visualize-spy
+  {
+    background-color: #2d2d2d;
+  }
+
+  td
+  {
+    border-top: 1px solid #424242;
+  }
+
+  .app-wrapper
+  {
+    background-color: #2d2d2d;
+  }
+
+  .filter-bar, .kuiLocalNav
+  {
+    background-color: #2d2d2d;
+    border-bottom: 2px solid #000;
+  }
+
+  h1
+  {
+    color: #FFF;
+  }
+
+  .kuiLocalMenuItem
+  {
+    color: #FFF;
+  }
+
+  .sidebar-container
+  {
+    box-shadow: 4px 0 3px rgba(0,0,0,.2);
+  }
+
+  .sidebar-container, .sidebar-container .sidebar-well
+  {
+    background-color: #2d2d2d;
+  }
+
+  .sidebar-container .sidebar-list-header
+  {
+    color: #b1b1b1;
+  }
+
+  .sidebar-list
+  {
+    border: 2px;
+    border-color: #000;
+  }
+
+  .btn-default, .kuiButton--primary, .kuiLocalSearchInput, 
+.kuiButton--basic, .kuiSelect, .form-inline .form-control,
+a[role=button]
+  {
+    color: #fff;
+    background-color: #585858;
+    border-color: #585858;
+  }
+
+  .btn-default:hover, .btn-default:active, 
+.kuiButton--primary:enabled, .kuiButton--primary:hover, .kuiButton--primary:active, 
+.kuiButton--basic:enabled, .kuiButton--basic:hover, .kuiButton--basic:active
+  {
+    color: #fff;
+    background-color: #656565;
+  }
+
+  .kuiIcon
+  {
+    color: #fff;
+  }
+
+  .kbn-table dl.source dt, kbn-table dl.source dt, tbody[kbn-rows] dl.source dt
+  {
+    background-color: #585858;
+    color: #b1b1b1;
+    border-radius: 5px;
+  }
+
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+  {
+    border-top: 1px solid #7f8182;
+  }
+
+  .kibanaWelcomeView
+  {
+    background: inherit;
+  }
+
+  .table-cell-filter
+  {
+    border-radius: 1px;
+  }
+
+  .docTableRowFilterButton
+  {
+    background-color: #2d2d2d;
+    padding: 1px;
+    border-radius: 1px;
+  }
+
+  rect[data-label=Count]
+  {
+    fill: #e9478b;
+    stroke: #e9478b;
+  }
+}
